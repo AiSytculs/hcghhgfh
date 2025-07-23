@@ -17,7 +17,7 @@ fetch('https://raw.githubusercontent.com/AiSytculs/json/refs/heads/main/projects
           ${project.links.github ? `<a href="${project.links.github}" target="_blank">GitHub</a>` : ''}
           ${project.links.googleDrive ? `<a href="${project.links.googleDrive}" target="_blank">.zip</a>` :''}
           ${project.links.dropbox ? `<a href="${project.links.dropbox}" target="_blank">Download</a>` : ''}
-          ${project.links.yandexDisk ? `<a href="${project.links.yandexDisk}" target="_blank"></a>` : ''}
+          ${project.links.yandexDisk ? `<a href="${project.links.yandexDisk}" target="_blank">Трейлер</a>` : ''}
           ${project.links.onedrive ? `<a href="${project.links.onedrive}" target="_blank"></a>` : ''}
         </div>
       `;
